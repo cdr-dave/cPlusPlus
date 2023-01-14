@@ -54,12 +54,12 @@
 		25E106FA282D47370002AAC4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E106F9282D47370002AAC4 /* main.cpp */; };
 		25E4008E288901BD000A3926 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E4008D288901BD000A3926 /* main.cpp */; };
 		25E99F97283E71030017FFCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E99F96283E71030017FFCF /* main.cpp */; };
-		25EA98052972C0FF00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98042972C0FF00E6033A /* main.cpp */; };
 		25EA98102972C19B00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA980F2972C19B00E6033A /* main.cpp */; };
 		25EA981C2972C2A200E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA981B2972C2A200E6033A /* main.cpp */; };
 		25EA98272972C2D600E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98262972C2D600E6033A /* main.cpp */; };
 		25EA98322972C33000E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98312972C33000E6033A /* main.cpp */; };
 		25EA983D2972C37A00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA983C2972C37A00E6033A /* main.cpp */; };
+		25EA98492972C55F00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98482972C55F00E6033A /* main.cpp */; };
 		25EDDEA628336F9600F3F583 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EDDEA528336F9600F3F583 /* main.cpp */; };
 		25EDDEB1283381C700F3F583 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EDDEB0283381C700F3F583 /* main.cpp */; };
 		25F0D5D528656442006A0ABB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25F0D5D428656442006A0ABB /* main.cpp */; };
@@ -399,15 +399,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		25EA98002972C0FE00E6033A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		25EA980B2972C19B00E6033A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,6 +436,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		25EA98382972C37A00E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25EA98442972C55E00E6033A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -583,8 +583,6 @@
 		25E4008D288901BD000A3926 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25E99F94283E71030017FFCF /* c20Ranges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c20Ranges; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E99F96283E71030017FFCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		25EA98022972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "仿函数-函数指针-lambda-std::function-std::bind"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25EA98042972C0FF00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25EA980D2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "模板-不定参数 decltype,declval 等"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA980F2972C19B00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25EA98142972C1D900E6033A /* out_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = out_type.h; sourceTree = "<group>"; };
@@ -597,6 +595,8 @@
 		25EA983A2972C37A00E6033A /* 管道通信 pipe,mkfifo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "管道通信 pipe,mkfifo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA983C2972C37A00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25EA98412972C3A300E6033A /* Lambda_2_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lambda_2_ptr.h; sourceTree = "<group>"; };
+		25EA98462972C55E00E6033A /* 仿函数,函数指针,lambda,function,bind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "仿函数,函数指针,lambda,function,bind"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA98482972C55F00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25EDDEA328336F9600F3F583 /* constexpr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = constexpr; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EDDEA528336F9600F3F583 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25EDDEAE283381C700F3F583 /* asm AT&T  单个指令测试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "asm AT&T  单个指令测试"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -866,13 +866,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25EA97FF2972C0FE00E6033A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25EA980A2972C19B00E6033A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -902,6 +895,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		25EA98372972C37A00E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98432972C55E00E6033A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1012,12 +1012,12 @@
 				25C25175288FD25D00114541 /* 不定参展开方法探索 */,
 				252B485A290D120300070F33 /* pragma pack对结构体做成员打包对齐设置 */,
 				252B4870290E713D00070F33 /* 匿名结构体 */,
-				25EA98032972C0FF00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */,
 				25EA980E2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */,
 				25EA981A2972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */,
 				25EA98252972C2D500E6033A /* new,delete分配函数和释放函数 */,
 				25EA98302972C33000E6033A /* 信号 alrm,setitimer */,
 				25EA983B2972C37A00E6033A /* 管道通信 pipe,mkfifo */,
+				25EA98472972C55F00E6033A /* 仿函数,函数指针,lambda,function,bind */,
 				2521460C2821445C00674C14 /* Products */,
 				25221676283BC3B3000F7707 /* Frameworks */,
 			);
@@ -1066,12 +1066,12 @@
 				25C25174288FD25D00114541 /* 不定参展开方法探索 */,
 				252B4859290D120200070F33 /* pragma pack对结构体做成员打包对齐设置 */,
 				252B486F290E713C00070F33 /* 匿名结构体 */,
-				25EA98022972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */,
 				25EA980D2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */,
 				25EA98192972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */,
 				25EA98242972C2D500E6033A /* new,delete分配函数和释放函数 */,
 				25EA982F2972C33000E6033A /* 信号 alrm,setitimer */,
 				25EA983A2972C37A00E6033A /* 管道通信 pipe,mkfifo */,
+				25EA98462972C55E00E6033A /* 仿函数,函数指针,lambda,function,bind */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1368,14 +1368,6 @@
 			path = c20Ranges;
 			sourceTree = "<group>";
 		};
-		25EA98032972C0FF00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */ = {
-			isa = PBXGroup;
-			children = (
-				25EA98042972C0FF00E6033A /* main.cpp */,
-			);
-			path = "仿函数-函数指针-lambda-std::function-std::bind";
-			sourceTree = "<group>";
-		};
 		25EA980E2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1416,6 +1408,14 @@
 				25EA98412972C3A300E6033A /* Lambda_2_ptr.h */,
 			);
 			path = "管道通信 pipe,mkfifo";
+			sourceTree = "<group>";
+		};
+		25EA98472972C55F00E6033A /* 仿函数,函数指针,lambda,function,bind */ = {
+			isa = PBXGroup;
+			children = (
+				25EA98482972C55F00E6033A /* main.cpp */,
+			);
+			path = "仿函数,函数指针,lambda,function,bind";
 			sourceTree = "<group>";
 		};
 		25EDDEA428336F9600F3F583 /* constexpr */ = {
@@ -2074,23 +2074,6 @@
 			productReference = 25E99F94283E71030017FFCF /* c20Ranges */;
 			productType = "com.apple.product-type.tool";
 		};
-		25EA98012972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25EA98082972C0FF00E6033A /* Build configuration list for PBXNativeTarget "仿函数-函数指针-lambda-std::function-std::bind" */;
-			buildPhases = (
-				25EA97FE2972C0FE00E6033A /* Sources */,
-				25EA97FF2972C0FE00E6033A /* Frameworks */,
-				25EA98002972C0FE00E6033A /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "仿函数-函数指针-lambda-std::function-std::bind";
-			productName = "仿函数-函数指针-lambda-std::function-std::bind";
-			productReference = 25EA98022972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */;
-			productType = "com.apple.product-type.tool";
-		};
 		25EA980C2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25EA98112972C19B00E6033A /* Build configuration list for PBXNativeTarget "模板-不定参数 decltype,declval 等" */;
@@ -2174,6 +2157,23 @@
 			name = "管道通信 pipe,mkfifo";
 			productName = "管道通信 pipe,mkfifo";
 			productReference = 25EA983A2972C37A00E6033A /* 管道通信 pipe,mkfifo */;
+			productType = "com.apple.product-type.tool";
+		};
+		25EA98452972C55E00E6033A /* 仿函数,函数指针,lambda,function,bind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA984A2972C55F00E6033A /* Build configuration list for PBXNativeTarget "仿函数,函数指针,lambda,function,bind" */;
+			buildPhases = (
+				25EA98422972C55E00E6033A /* Sources */,
+				25EA98432972C55E00E6033A /* Frameworks */,
+				25EA98442972C55E00E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿函数,函数指针,lambda,function,bind";
+			productName = "仿函数,函数指针,lambda,function,bind";
+			productReference = 25EA98462972C55E00E6033A /* 仿函数,函数指针,lambda,function,bind */;
 			productType = "com.apple.product-type.tool";
 		};
 		25EDDEA228336F9600F3F583 /* constexpr */ = {
@@ -2347,9 +2347,6 @@
 					25E99F93283E71030017FFCF = {
 						CreatedOnToolsVersion = 13.4;
 					};
-					25EA98012972C0FE00E6033A = {
-						CreatedOnToolsVersion = 14.2;
-					};
 					25EA980C2972C19B00E6033A = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -2363,6 +2360,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					25EA98392972C37A00E6033A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25EA98452972C55E00E6033A = {
 						CreatedOnToolsVersion = 14.2;
 					};
 					25EDDEA228336F9600F3F583 = {
@@ -2429,12 +2429,12 @@
 				25C25173288FD25D00114541 /* 不定参展开方法探索 */,
 				252B4858290D120200070F33 /* pragma pack对结构体做成员打包对齐设置 */,
 				252B486E290E713C00070F33 /* 匿名结构体 */,
-				25EA98012972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */,
 				25EA980C2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */,
 				25EA98182972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */,
 				25EA98232972C2D500E6033A /* new,delete分配函数和释放函数 */,
 				25EA982E2972C32F00E6033A /* 信号 alrm,setitimer */,
 				25EA98392972C37A00E6033A /* 管道通信 pipe,mkfifo */,
+				25EA98452972C55E00E6033A /* 仿函数,函数指针,lambda,function,bind */,
 			);
 		};
 /* End PBXProject section */
@@ -2745,14 +2745,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25EA97FE2972C0FE00E6033A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25EA98052972C0FF00E6033A /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25EA98092972C19B00E6033A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2790,6 +2782,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EA983D2972C37A00E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98422972C55E00E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA98492972C55F00E6033A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3799,28 +3799,6 @@
 			};
 			name = Release;
 		};
-		25EA98062972C0FF00E6033A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		25EA98072972C0FF00E6033A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		25EA98122972C19B00E6033A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3921,6 +3899,28 @@
 			name = Debug;
 		};
 		25EA98402972C37A00E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EA984B2972C55F00E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA984C2972C55F00E6033A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4348,15 +4348,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25EA98082972C0FF00E6033A /* Build configuration list for PBXNativeTarget "仿函数-函数指针-lambda-std::function-std::bind" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25EA98062972C0FF00E6033A /* Debug */,
-				25EA98072972C0FF00E6033A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		25EA98112972C19B00E6033A /* Build configuration list for PBXNativeTarget "模板-不定参数 decltype,declval 等" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4398,6 +4389,15 @@
 			buildConfigurations = (
 				25EA983F2972C37A00E6033A /* Debug */,
 				25EA98402972C37A00E6033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA984A2972C55F00E6033A /* Build configuration list for PBXNativeTarget "仿函数,函数指针,lambda,function,bind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA984B2972C55F00E6033A /* Debug */,
+				25EA984C2972C55F00E6033A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
