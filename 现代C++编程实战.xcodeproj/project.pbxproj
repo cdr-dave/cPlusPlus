@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		250C68B9283CC2F900CBA9FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250C68B8283CC2F900CBA9FA /* main.cpp */; };
-		2515096A2845B6370037DF08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251509692845B6370037DF08 /* main.cpp */; };
 		251509752845C9760037DF08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251509742845C9760037DF08 /* main.cpp */; };
 		2515097B2845C9CB0037DF08 /* debug_new.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251509792845C9CB0037DF08 /* debug_new.cpp */; };
 		251509862845F4550037DF08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251509852845F4550037DF08 /* main.cpp */; };
-		25150991284770C10037DF08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25150990284770C10037DF08 /* main.cpp */; };
 		2515099C28485A5E0037DF08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2515099B28485A5E0037DF08 /* main.cpp */; };
 		2521461C2821449A00674C14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2521461B2821449A00674C14 /* main.cpp */; };
 		25214627282145A700674C14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25214626282145A700674C14 /* main.cpp */; };
@@ -32,18 +30,14 @@
 		254111BC2850A64500F33EC0 /* includeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 254111BA2850A64500F33EC0 /* includeTest.cpp */; };
 		2562FF772884417A00CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FF762884417A00CA78C5 /* main.cpp */; };
 		2562FF82288456B600CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FF81288456B600CA78C5 /* main.cpp */; };
-		2562FF8D288500FB00CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FF8C288500FB00CA78C5 /* main.cpp */; };
-		2562FF982885108C00CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FF972885108C00CA78C5 /* main.cpp */; };
 		2562FFA32886844500CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FFA22886844500CA78C5 /* main.cpp */; };
 		2562FFAE2886986C00CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FFAD2886986C00CA78C5 /* main.cpp */; };
-		2562FFB92886F65900CA78C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2562FFB82886F65900CA78C5 /* main.cpp */; };
 		257D870A282FAE6600E998DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 257D8709282FAE6600E998DA /* main.cpp */; };
 		257D871528312AF700E998DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 257D871428312AF700E998DA /* main.cpp */; };
 		257D871B28312B1000E998DA /* QObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 257D871928312B1000E998DA /* QObject.cpp */; };
 		257D871F28312C3000E998DA /* moc_QObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 257D871E28312C3000E998DA /* moc_QObject.cpp */; };
 		25A6DC1E2834FD5E0022098B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25A6DC1D2834FD5E0022098B /* main.cpp */; };
 		25BBEB18284CCF8000952B0B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25BBEB17284CCF8000952B0B /* main.cpp */; };
-		25C2515F288E9BD500114541 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25C2515E288E9BD500114541 /* main.cpp */; };
 		25C2516A288FCDF700114541 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25C25169288FCDF700114541 /* main.cpp */; };
 		25C25177288FD25D00114541 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25C25176288FD25D00114541 /* main.cpp */; };
 		25E1068D2824C27B0002AAC4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E1068C2824C27B0002AAC4 /* main.cpp */; };
@@ -60,6 +54,12 @@
 		25E106FA282D47370002AAC4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E106F9282D47370002AAC4 /* main.cpp */; };
 		25E4008E288901BD000A3926 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E4008D288901BD000A3926 /* main.cpp */; };
 		25E99F97283E71030017FFCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E99F96283E71030017FFCF /* main.cpp */; };
+		25EA98052972C0FF00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98042972C0FF00E6033A /* main.cpp */; };
+		25EA98102972C19B00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA980F2972C19B00E6033A /* main.cpp */; };
+		25EA981C2972C2A200E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA981B2972C2A200E6033A /* main.cpp */; };
+		25EA98272972C2D600E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98262972C2D600E6033A /* main.cpp */; };
+		25EA98322972C33000E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA98312972C33000E6033A /* main.cpp */; };
+		25EA983D2972C37A00E6033A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EA983C2972C37A00E6033A /* main.cpp */; };
 		25EDDEA628336F9600F3F583 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EDDEA528336F9600F3F583 /* main.cpp */; };
 		25EDDEB1283381C700F3F583 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25EDDEB0283381C700F3F583 /* main.cpp */; };
 		25F0D5D528656442006A0ABB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25F0D5D428656442006A0ABB /* main.cpp */; };
@@ -67,15 +67,6 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		250C68B4283CC2F900CBA9FA /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		251509652845B6370037DF08 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -94,15 +85,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		251509812845F4550037DF08 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		2515098C284770C10037DF08 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -237,24 +219,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		2562FF88288500FB00CA78C5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		2562FF932885108C00CA78C5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		2562FF9E2886844500CA78C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,15 +229,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		2562FFA92886986C00CA78C5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		2562FFB42886F65900CA78C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -310,15 +265,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		25BBEB13284CCF8000952B0B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		25C2515A288E9BD500114541 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -453,6 +399,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		25EA98002972C0FE00E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25EA980B2972C19B00E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25EA98172972C2A200E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25EA98222972C2D500E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25EA982D2972C32F00E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25EA98382972C37A00E6033A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		25EDDEA128336F9600F3F583 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,8 +485,6 @@
 /* Begin PBXFileReference section */
 		250C68B6283CC2F900CBA9FA /* 多线程——避免死锁 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "多线程——避免死锁"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250C68B8283CC2F900CBA9FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		251509672845B6370037DF08 /* new/delete分配函数和释放函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new/delete分配函数和释放函数"; sourceTree = BUILT_PRODUCTS_DIR; };
-		251509692845B6370037DF08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		251509722845C9760037DF08 /* debug_new */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = debug_new; sourceTree = BUILT_PRODUCTS_DIR; };
 		251509742845C9760037DF08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		251509792845C9CB0037DF08 /* debug_new.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = debug_new.cpp; sourceTree = "<group>"; };
@@ -496,8 +494,6 @@
 		2515097E2845E3F20037DF08 /* c++_features.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c++_features.h"; sourceTree = "<group>"; };
 		251509832845F4550037DF08 /* 调用堆栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "调用堆栈"; sourceTree = BUILT_PRODUCTS_DIR; };
 		251509852845F4550037DF08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2515098E284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new/delete/malloc/free 删除的时候如何知道大小"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25150990284770C10037DF08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2515099928485A5E0037DF08 /* 容器分配器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "容器分配器"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2515099B28485A5E0037DF08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		252146192821449A00674C14 /* vector强异常安全性 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "vector强异常安全性"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -538,16 +534,10 @@
 		2562FF762884417A00CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2562FF7F288456B600CA78C5 /* 信号 sigqueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "信号 sigqueue"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2562FF81288456B600CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2562FF8A288500FB00CA78C5 /* 信号 alrm/setitimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "信号 alrm/setitimer"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2562FF8C288500FB00CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2562FF952885108C00CA78C5 /* 管道通信 pipe/mkfifo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "管道通信 pipe/mkfifo"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2562FF972885108C00CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2562FFA02886844500CA78C5 /* fork 学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fork 学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2562FFA22886844500CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2562FFAB2886986C00CA78C5 /* fork  生命周期 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "fork  生命周期"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2562FFAD2886986C00CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2562FFB62886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "仿函数/函数指针/lambda/std::function/std::bind"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2562FFB82886F65900CA78C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		257D8707282FAE6600E998DA /* 编译期计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "编译期计算"; sourceTree = BUILT_PRODUCTS_DIR; };
 		257D8709282FAE6600E998DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		257D871228312AF700E998DA /* qt 信号与槽 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "qt 信号与槽"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -560,15 +550,11 @@
 		25A6DC1D2834FD5E0022098B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25BBEB15284CCF8000952B0B /* String_View */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = String_View; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BBEB17284CCF8000952B0B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		25C2515C288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "模板-不定参数 decltype / declval 等"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25C2515E288E9BD500114541 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25C25167288FCDF700114541 /* 打印函数类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "打印函数类型"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C25169288FCDF700114541 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25C2516E288FCE2A00114541 /* out_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = out_type.h; sourceTree = "<group>"; };
-		25C2516F288FD11000114541 /* out_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = out_type.h; sourceTree = "<group>"; };
 		25C25174288FD25D00114541 /* 不定参展开方法探索 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "不定参展开方法探索"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C25176288FD25D00114541 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		25C2517B2892789F00114541 /* Lambda_2_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lambda_2_ptr.h; sourceTree = "<group>"; };
 		25E1068A2824C27B0002AAC4 /* 异常 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "异常"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E1068C2824C27B0002AAC4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25E10695282512A70002AAC4 /* 自动推导 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自动推导"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -597,6 +583,20 @@
 		25E4008D288901BD000A3926 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25E99F94283E71030017FFCF /* c20Ranges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c20Ranges; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E99F96283E71030017FFCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA98022972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "仿函数-函数指针-lambda-std::function-std::bind"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA98042972C0FF00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA980D2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "模板-不定参数 decltype,declval 等"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA980F2972C19B00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA98142972C1D900E6033A /* out_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = out_type.h; sourceTree = "<group>"; };
+		25EA98192972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new,delete,malloc,free 删除的时候如何知道大小"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA981B2972C2A200E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA98242972C2D500E6033A /* new,delete分配函数和释放函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new,delete分配函数和释放函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA98262972C2D600E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA982F2972C33000E6033A /* 信号 alrm,setitimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "信号 alrm,setitimer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA98312972C33000E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA983A2972C37A00E6033A /* 管道通信 pipe,mkfifo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "管道通信 pipe,mkfifo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EA983C2972C37A00E6033A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25EA98412972C3A300E6033A /* Lambda_2_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lambda_2_ptr.h; sourceTree = "<group>"; };
 		25EDDEA328336F9600F3F583 /* constexpr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = constexpr; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EDDEA528336F9600F3F583 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		25EDDEAE283381C700F3F583 /* asm AT&T  单个指令测试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "asm AT&T  单个指令测试"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -613,13 +613,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		251509642845B6370037DF08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2515096F2845C9760037DF08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,13 +621,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		251509802845F4550037DF08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2515098B284770C10037DF08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -740,20 +726,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2562FF87288500FB00CA78C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2562FF922885108C00CA78C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2562FF9D2886844500CA78C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -762,13 +734,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2562FFA82886986C00CA78C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2562FFB32886F65900CA78C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -797,13 +762,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		25BBEB12284CCF8000952B0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25C25159288E9BD500114541 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -908,6 +866,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25EA97FF2972C0FE00E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA980A2972C19B00E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98162972C2A200E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98212972C2D500E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA982C2972C32F00E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98372972C37A00E6033A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25EDDEA028336F9600F3F583 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -940,14 +940,6 @@
 			path = "多线程——避免死锁";
 			sourceTree = "<group>";
 		};
-		251509682845B6370037DF08 /* new/delete分配函数和释放函数 */ = {
-			isa = PBXGroup;
-			children = (
-				251509692845B6370037DF08 /* main.cpp */,
-			);
-			path = "new/delete分配函数和释放函数";
-			sourceTree = "<group>";
-		};
 		251509732845C9760037DF08 /* debug_new */ = {
 			isa = PBXGroup;
 			children = (
@@ -967,14 +959,6 @@
 				251509852845F4550037DF08 /* main.cpp */,
 			);
 			path = "调用堆栈";
-			sourceTree = "<group>";
-		};
-		2515098F284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */ = {
-			isa = PBXGroup;
-			children = (
-				25150990284770C10037DF08 /* main.cpp */,
-			);
-			path = "new/delete/malloc/free 删除的时候如何知道大小";
 			sourceTree = "<group>";
 		};
 		2515099A28485A5E0037DF08 /* 容器分配器 */ = {
@@ -1012,10 +996,8 @@
 				25221665283B5A84000F7707 /* optional, variant, expected, Herbception */,
 				25221670283BC2DC000F7707 /* 科学计算——矢量 dgemv */,
 				25E99F95283E71030017FFCF /* c20Ranges */,
-				251509682845B6370037DF08 /* new/delete分配函数和释放函数 */,
 				251509732845C9760037DF08 /* debug_new */,
 				251509842845F4550037DF08 /* 调用堆栈 */,
-				2515098F284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */,
 				2515099A28485A5E0037DF08 /* 容器分配器 */,
 				25BBEB16284CCF8000952B0B /* String_View */,
 				254111B32850A61900F33EC0 /* 头文件包含问题 */,
@@ -1023,17 +1005,19 @@
 				253E6AEB2882F2E800AA9037 /* 信号 Raise */,
 				2562FF752884417A00CA78C5 /* 信号 kill */,
 				2562FF80288456B600CA78C5 /* 信号 sigqueue */,
-				2562FF8B288500FB00CA78C5 /* 信号 alrm/setitimer */,
-				2562FF962885108C00CA78C5 /* 管道通信 pipe/mkfifo */,
 				2562FFA12886844500CA78C5 /* fork 学习 */,
 				2562FFAC2886986C00CA78C5 /* fork  生命周期 */,
-				2562FFB72886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */,
 				25E4008C288901BD000A3926 /* operator 学习 */,
-				25C2515D288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */,
 				25C25168288FCDF700114541 /* 打印函数类型 */,
 				25C25175288FD25D00114541 /* 不定参展开方法探索 */,
 				252B485A290D120300070F33 /* pragma pack对结构体做成员打包对齐设置 */,
 				252B4870290E713D00070F33 /* 匿名结构体 */,
+				25EA98032972C0FF00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */,
+				25EA980E2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */,
+				25EA981A2972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */,
+				25EA98252972C2D500E6033A /* new,delete分配函数和释放函数 */,
+				25EA98302972C33000E6033A /* 信号 alrm,setitimer */,
+				25EA983B2972C37A00E6033A /* 管道通信 pipe,mkfifo */,
 				2521460C2821445C00674C14 /* Products */,
 				25221676283BC3B3000F7707 /* Frameworks */,
 			);
@@ -1066,10 +1050,8 @@
 				2522166F283BC2DC000F7707 /* 科学计算——矢量 dgemv */,
 				250C68B6283CC2F900CBA9FA /* 多线程——避免死锁 */,
 				25E99F94283E71030017FFCF /* c20Ranges */,
-				251509672845B6370037DF08 /* new/delete分配函数和释放函数 */,
 				251509722845C9760037DF08 /* debug_new */,
 				251509832845F4550037DF08 /* 调用堆栈 */,
-				2515098E284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */,
 				2515099928485A5E0037DF08 /* 容器分配器 */,
 				25BBEB15284CCF8000952B0B /* String_View */,
 				254111B22850A61900F33EC0 /* 头文件包含问题 */,
@@ -1077,17 +1059,19 @@
 				253E6AEA2882F2E800AA9037 /* 信号 Raise */,
 				2562FF742884417A00CA78C5 /* 信号 kill */,
 				2562FF7F288456B600CA78C5 /* 信号 sigqueue */,
-				2562FF8A288500FB00CA78C5 /* 信号 alrm/setitimer */,
-				2562FF952885108C00CA78C5 /* 管道通信 pipe/mkfifo */,
 				2562FFA02886844500CA78C5 /* fork 学习 */,
 				2562FFAB2886986C00CA78C5 /* fork  生命周期 */,
-				2562FFB62886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */,
 				25E4008B288901BD000A3926 /* operator 学习 */,
-				25C2515C288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */,
 				25C25167288FCDF700114541 /* 打印函数类型 */,
 				25C25174288FD25D00114541 /* 不定参展开方法探索 */,
 				252B4859290D120200070F33 /* pragma pack对结构体做成员打包对齐设置 */,
 				252B486F290E713C00070F33 /* 匿名结构体 */,
+				25EA98022972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */,
+				25EA980D2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */,
+				25EA98192972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */,
+				25EA98242972C2D500E6033A /* new,delete分配函数和释放函数 */,
+				25EA982F2972C33000E6033A /* 信号 alrm,setitimer */,
+				25EA983A2972C37A00E6033A /* 管道通信 pipe,mkfifo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1215,23 +1199,6 @@
 			path = "信号 sigqueue";
 			sourceTree = "<group>";
 		};
-		2562FF8B288500FB00CA78C5 /* 信号 alrm/setitimer */ = {
-			isa = PBXGroup;
-			children = (
-				2562FF8C288500FB00CA78C5 /* main.cpp */,
-			);
-			path = "信号 alrm/setitimer";
-			sourceTree = "<group>";
-		};
-		2562FF962885108C00CA78C5 /* 管道通信 pipe/mkfifo */ = {
-			isa = PBXGroup;
-			children = (
-				2562FF972885108C00CA78C5 /* main.cpp */,
-				25C2517B2892789F00114541 /* Lambda_2_ptr.h */,
-			);
-			path = "管道通信 pipe/mkfifo";
-			sourceTree = "<group>";
-		};
 		2562FFA12886844500CA78C5 /* fork 学习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1246,14 +1213,6 @@
 				2562FFAD2886986C00CA78C5 /* main.cpp */,
 			);
 			path = "fork  生命周期";
-			sourceTree = "<group>";
-		};
-		2562FFB72886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */ = {
-			isa = PBXGroup;
-			children = (
-				2562FFB82886F65900CA78C5 /* main.cpp */,
-			);
-			path = "仿函数/函数指针/lambda/std::function/std::bind";
 			sourceTree = "<group>";
 		};
 		257D8708282FAE6600E998DA /* 编译期计算 */ = {
@@ -1290,15 +1249,6 @@
 				25BBEB17284CCF8000952B0B /* main.cpp */,
 			);
 			path = String_View;
-			sourceTree = "<group>";
-		};
-		25C2515D288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */ = {
-			isa = PBXGroup;
-			children = (
-				25C2515E288E9BD500114541 /* main.cpp */,
-				25C2516F288FD11000114541 /* out_type.h */,
-			);
-			path = "模板-不定参数 decltype / declval 等";
 			sourceTree = "<group>";
 		};
 		25C25168288FCDF700114541 /* 打印函数类型 */ = {
@@ -1418,6 +1368,56 @@
 			path = c20Ranges;
 			sourceTree = "<group>";
 		};
+		25EA98032972C0FF00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */ = {
+			isa = PBXGroup;
+			children = (
+				25EA98042972C0FF00E6033A /* main.cpp */,
+			);
+			path = "仿函数-函数指针-lambda-std::function-std::bind";
+			sourceTree = "<group>";
+		};
+		25EA980E2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */ = {
+			isa = PBXGroup;
+			children = (
+				25EA980F2972C19B00E6033A /* main.cpp */,
+				25EA98142972C1D900E6033A /* out_type.h */,
+			);
+			path = "模板-不定参数 decltype,declval 等";
+			sourceTree = "<group>";
+		};
+		25EA981A2972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */ = {
+			isa = PBXGroup;
+			children = (
+				25EA981B2972C2A200E6033A /* main.cpp */,
+			);
+			path = "new,delete,malloc,free 删除的时候如何知道大小";
+			sourceTree = "<group>";
+		};
+		25EA98252972C2D500E6033A /* new,delete分配函数和释放函数 */ = {
+			isa = PBXGroup;
+			children = (
+				25EA98262972C2D600E6033A /* main.cpp */,
+			);
+			path = "new,delete分配函数和释放函数";
+			sourceTree = "<group>";
+		};
+		25EA98302972C33000E6033A /* 信号 alrm,setitimer */ = {
+			isa = PBXGroup;
+			children = (
+				25EA98312972C33000E6033A /* main.cpp */,
+			);
+			path = "信号 alrm,setitimer";
+			sourceTree = "<group>";
+		};
+		25EA983B2972C37A00E6033A /* 管道通信 pipe,mkfifo */ = {
+			isa = PBXGroup;
+			children = (
+				25EA983C2972C37A00E6033A /* main.cpp */,
+				25EA98412972C3A300E6033A /* Lambda_2_ptr.h */,
+			);
+			path = "管道通信 pipe,mkfifo";
+			sourceTree = "<group>";
+		};
 		25EDDEA428336F9600F3F583 /* constexpr */ = {
 			isa = PBXGroup;
 			children = (
@@ -1462,23 +1462,6 @@
 			productReference = 250C68B6283CC2F900CBA9FA /* 多线程——避免死锁 */;
 			productType = "com.apple.product-type.tool";
 		};
-		251509662845B6370037DF08 /* new/delete分配函数和释放函数 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2515096D2845B6370037DF08 /* Build configuration list for PBXNativeTarget "new/delete分配函数和释放函数" */;
-			buildPhases = (
-				251509632845B6370037DF08 /* Sources */,
-				251509642845B6370037DF08 /* Frameworks */,
-				251509652845B6370037DF08 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "new/delete分配函数和释放函数";
-			productName = "new/delete分配函数和释放函数";
-			productReference = 251509672845B6370037DF08 /* new/delete分配函数和释放函数 */;
-			productType = "com.apple.product-type.tool";
-		};
 		251509712845C9760037DF08 /* debug_new */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 251509762845C9760037DF08 /* Build configuration list for PBXNativeTarget "debug_new" */;
@@ -1511,23 +1494,6 @@
 			name = "调用堆栈";
 			productName = "调用堆栈";
 			productReference = 251509832845F4550037DF08 /* 调用堆栈 */;
-			productType = "com.apple.product-type.tool";
-		};
-		2515098D284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25150992284770C10037DF08 /* Build configuration list for PBXNativeTarget "new/delete/malloc/free 删除的时候如何知道大小" */;
-			buildPhases = (
-				2515098A284770C10037DF08 /* Sources */,
-				2515098B284770C10037DF08 /* Frameworks */,
-				2515098C284770C10037DF08 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "new/delete/malloc/free 删除的时候如何知道大小";
-			productName = "new/delete/malloc/free 删除的时候如何知道大小";
-			productReference = 2515098E284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */;
 			productType = "com.apple.product-type.tool";
 		};
 		2515099828485A5E0037DF08 /* 容器分配器 */ = {
@@ -1768,40 +1734,6 @@
 			productReference = 2562FF7F288456B600CA78C5 /* 信号 sigqueue */;
 			productType = "com.apple.product-type.tool";
 		};
-		2562FF89288500FB00CA78C5 /* 信号 alrm/setitimer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2562FF8E288500FB00CA78C5 /* Build configuration list for PBXNativeTarget "信号 alrm/setitimer" */;
-			buildPhases = (
-				2562FF86288500FB00CA78C5 /* Sources */,
-				2562FF87288500FB00CA78C5 /* Frameworks */,
-				2562FF88288500FB00CA78C5 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "信号 alrm/setitimer";
-			productName = "信号 alrm/setitimer";
-			productReference = 2562FF8A288500FB00CA78C5 /* 信号 alrm/setitimer */;
-			productType = "com.apple.product-type.tool";
-		};
-		2562FF942885108C00CA78C5 /* 管道通信 pipe/mkfifo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2562FF992885108C00CA78C5 /* Build configuration list for PBXNativeTarget "管道通信 pipe/mkfifo" */;
-			buildPhases = (
-				2562FF912885108C00CA78C5 /* Sources */,
-				2562FF922885108C00CA78C5 /* Frameworks */,
-				2562FF932885108C00CA78C5 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "管道通信 pipe/mkfifo";
-			productName = "管道通信 pipe/mkfifo";
-			productReference = 2562FF952885108C00CA78C5 /* 管道通信 pipe/mkfifo */;
-			productType = "com.apple.product-type.tool";
-		};
 		2562FF9F2886844500CA78C5 /* fork 学习 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2562FFA42886844500CA78C5 /* Build configuration list for PBXNativeTarget "fork 学习" */;
@@ -1834,23 +1766,6 @@
 			name = "fork  生命周期";
 			productName = "fork  生命周期";
 			productReference = 2562FFAB2886986C00CA78C5 /* fork  生命周期 */;
-			productType = "com.apple.product-type.tool";
-		};
-		2562FFB52886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2562FFBA2886F65900CA78C5 /* Build configuration list for PBXNativeTarget "仿函数/函数指针/lambda/std::function/std::bind" */;
-			buildPhases = (
-				2562FFB22886F65900CA78C5 /* Sources */,
-				2562FFB32886F65900CA78C5 /* Frameworks */,
-				2562FFB42886F65900CA78C5 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "仿函数/函数指针/lambda/std::function/std::bind";
-			productName = "仿函数/函数指针/lambda/std::function/std::bind";
-			productReference = 2562FFB62886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */;
 			productType = "com.apple.product-type.tool";
 		};
 		257D8706282FAE6600E998DA /* 编译期计算 */ = {
@@ -1919,23 +1834,6 @@
 			name = String_View;
 			productName = String_View;
 			productReference = 25BBEB15284CCF8000952B0B /* String_View */;
-			productType = "com.apple.product-type.tool";
-		};
-		25C2515B288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25C25162288E9BD500114541 /* Build configuration list for PBXNativeTarget "模板-不定参数 decltype / declval 等" */;
-			buildPhases = (
-				25C25158288E9BD500114541 /* Sources */,
-				25C25159288E9BD500114541 /* Frameworks */,
-				25C2515A288E9BD500114541 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "模板-不定参数 decltype / declval 等";
-			productName = "模板-不定参数 decltype / declval 等";
-			productReference = 25C2515C288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */;
 			productType = "com.apple.product-type.tool";
 		};
 		25C25166288FCDF700114541 /* 打印函数类型 */ = {
@@ -2176,6 +2074,108 @@
 			productReference = 25E99F94283E71030017FFCF /* c20Ranges */;
 			productType = "com.apple.product-type.tool";
 		};
+		25EA98012972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA98082972C0FF00E6033A /* Build configuration list for PBXNativeTarget "仿函数-函数指针-lambda-std::function-std::bind" */;
+			buildPhases = (
+				25EA97FE2972C0FE00E6033A /* Sources */,
+				25EA97FF2972C0FE00E6033A /* Frameworks */,
+				25EA98002972C0FE00E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿函数-函数指针-lambda-std::function-std::bind";
+			productName = "仿函数-函数指针-lambda-std::function-std::bind";
+			productReference = 25EA98022972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */;
+			productType = "com.apple.product-type.tool";
+		};
+		25EA980C2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA98112972C19B00E6033A /* Build configuration list for PBXNativeTarget "模板-不定参数 decltype,declval 等" */;
+			buildPhases = (
+				25EA98092972C19B00E6033A /* Sources */,
+				25EA980A2972C19B00E6033A /* Frameworks */,
+				25EA980B2972C19B00E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模板-不定参数 decltype,declval 等";
+			productName = "模板-不定参数 decltype,declval 等";
+			productReference = 25EA980D2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */;
+			productType = "com.apple.product-type.tool";
+		};
+		25EA98182972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA981D2972C2A200E6033A /* Build configuration list for PBXNativeTarget "new,delete,malloc,free 删除的时候如何知道大小" */;
+			buildPhases = (
+				25EA98152972C2A200E6033A /* Sources */,
+				25EA98162972C2A200E6033A /* Frameworks */,
+				25EA98172972C2A200E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new,delete,malloc,free 删除的时候如何知道大小";
+			productName = "new,delete,malloc,free 删除的时候如何知道大小";
+			productReference = 25EA98192972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */;
+			productType = "com.apple.product-type.tool";
+		};
+		25EA98232972C2D500E6033A /* new,delete分配函数和释放函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA98282972C2D600E6033A /* Build configuration list for PBXNativeTarget "new,delete分配函数和释放函数" */;
+			buildPhases = (
+				25EA98202972C2D500E6033A /* Sources */,
+				25EA98212972C2D500E6033A /* Frameworks */,
+				25EA98222972C2D500E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new,delete分配函数和释放函数";
+			productName = "new,delete分配函数和释放函数";
+			productReference = 25EA98242972C2D500E6033A /* new,delete分配函数和释放函数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		25EA982E2972C32F00E6033A /* 信号 alrm,setitimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA98332972C33000E6033A /* Build configuration list for PBXNativeTarget "信号 alrm,setitimer" */;
+			buildPhases = (
+				25EA982B2972C32F00E6033A /* Sources */,
+				25EA982C2972C32F00E6033A /* Frameworks */,
+				25EA982D2972C32F00E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "信号 alrm,setitimer";
+			productName = "信号 alrm,setitimer";
+			productReference = 25EA982F2972C33000E6033A /* 信号 alrm,setitimer */;
+			productType = "com.apple.product-type.tool";
+		};
+		25EA98392972C37A00E6033A /* 管道通信 pipe,mkfifo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA983E2972C37A00E6033A /* Build configuration list for PBXNativeTarget "管道通信 pipe,mkfifo" */;
+			buildPhases = (
+				25EA98362972C37A00E6033A /* Sources */,
+				25EA98372972C37A00E6033A /* Frameworks */,
+				25EA98382972C37A00E6033A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "管道通信 pipe,mkfifo";
+			productName = "管道通信 pipe,mkfifo";
+			productReference = 25EA983A2972C37A00E6033A /* 管道通信 pipe,mkfifo */;
+			productType = "com.apple.product-type.tool";
+		};
 		25EDDEA228336F9600F3F583 /* constexpr */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25EDDEA928336F9600F3F583 /* Build configuration list for PBXNativeTarget "constexpr" */;
@@ -2239,16 +2239,10 @@
 					250C68B5283CC2F900CBA9FA = {
 						CreatedOnToolsVersion = 13.4;
 					};
-					251509662845B6370037DF08 = {
-						CreatedOnToolsVersion = 13.4;
-					};
 					251509712845C9760037DF08 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 					251509822845F4550037DF08 = {
-						CreatedOnToolsVersion = 13.4;
-					};
-					2515098D284770C10037DF08 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 					2515099828485A5E0037DF08 = {
@@ -2293,19 +2287,10 @@
 					2562FF7E288456B600CA78C5 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
-					2562FF89288500FB00CA78C5 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					2562FF942885108C00CA78C5 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
 					2562FF9F2886844500CA78C5 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					2562FFAA2886986C00CA78C5 = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					2562FFB52886F65900CA78C5 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					257D8706282FAE6600E998DA = {
@@ -2318,9 +2303,6 @@
 						CreatedOnToolsVersion = 13.4;
 					};
 					25BBEB14284CCF8000952B0B = {
-						CreatedOnToolsVersion = 13.4.1;
-					};
-					25C2515B288E9BD500114541 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					25C25166288FCDF700114541 = {
@@ -2364,6 +2346,24 @@
 					};
 					25E99F93283E71030017FFCF = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					25EA98012972C0FE00E6033A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25EA980C2972C19B00E6033A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25EA98182972C2A200E6033A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25EA98232972C2D500E6033A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25EA982E2972C32F00E6033A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25EA98392972C37A00E6033A = {
+						CreatedOnToolsVersion = 14.2;
 					};
 					25EDDEA228336F9600F3F583 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -2413,10 +2413,8 @@
 				2522166E283BC2DC000F7707 /* 科学计算——矢量 dgemv */,
 				250C68B5283CC2F900CBA9FA /* 多线程——避免死锁 */,
 				25E99F93283E71030017FFCF /* c20Ranges */,
-				251509662845B6370037DF08 /* new/delete分配函数和释放函数 */,
 				251509712845C9760037DF08 /* debug_new */,
 				251509822845F4550037DF08 /* 调用堆栈 */,
-				2515098D284770C10037DF08 /* new/delete/malloc/free 删除的时候如何知道大小 */,
 				2515099828485A5E0037DF08 /* 容器分配器 */,
 				25BBEB14284CCF8000952B0B /* String_View */,
 				254111B12850A61900F33EC0 /* 头文件包含问题 */,
@@ -2424,17 +2422,19 @@
 				253E6AE92882F2E800AA9037 /* 信号 Raise */,
 				2562FF732884417A00CA78C5 /* 信号 kill */,
 				2562FF7E288456B600CA78C5 /* 信号 sigqueue */,
-				2562FF89288500FB00CA78C5 /* 信号 alrm/setitimer */,
-				2562FF942885108C00CA78C5 /* 管道通信 pipe/mkfifo */,
 				2562FF9F2886844500CA78C5 /* fork 学习 */,
 				2562FFAA2886986C00CA78C5 /* fork  生命周期 */,
-				2562FFB52886F65900CA78C5 /* 仿函数/函数指针/lambda/std::function/std::bind */,
 				25E4008A288901BD000A3926 /* operator 学习 */,
-				25C2515B288E9BD500114541 /* 模板-不定参数 decltype / declval 等 */,
 				25C25166288FCDF700114541 /* 打印函数类型 */,
 				25C25173288FD25D00114541 /* 不定参展开方法探索 */,
 				252B4858290D120200070F33 /* pragma pack对结构体做成员打包对齐设置 */,
 				252B486E290E713C00070F33 /* 匿名结构体 */,
+				25EA98012972C0FE00E6033A /* 仿函数-函数指针-lambda-std::function-std::bind */,
+				25EA980C2972C19B00E6033A /* 模板-不定参数 decltype,declval 等 */,
+				25EA98182972C2A200E6033A /* new,delete,malloc,free 删除的时候如何知道大小 */,
+				25EA98232972C2D500E6033A /* new,delete分配函数和释放函数 */,
+				25EA982E2972C32F00E6033A /* 信号 alrm,setitimer */,
+				25EA98392972C37A00E6033A /* 管道通信 pipe,mkfifo */,
 			);
 		};
 /* End PBXProject section */
@@ -2445,14 +2445,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				250C68B9283CC2F900CBA9FA /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		251509632845B6370037DF08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2515096A2845B6370037DF08 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2470,14 +2462,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				251509862845F4550037DF08 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2515098A284770C10037DF08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25150991284770C10037DF08 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2597,22 +2581,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2562FF86288500FB00CA78C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2562FF8D288500FB00CA78C5 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2562FF912885108C00CA78C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2562FF982885108C00CA78C5 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2562FF9C2886844500CA78C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2626,14 +2594,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2562FFAE2886986C00CA78C5 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2562FFB22886F65900CA78C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2562FFB92886F65900CA78C5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2668,14 +2628,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				25BBEB18284CCF8000952B0B /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25C25158288E9BD500114541 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25C2515F288E9BD500114541 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2793,6 +2745,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25EA97FE2972C0FE00E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA98052972C0FF00E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98092972C19B00E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA98102972C19B00E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98152972C2A200E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA981C2972C2A200E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98202972C2D500E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA98272972C2D600E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA982B2972C32F00E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA98322972C33000E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EA98362972C37A00E6033A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EA983D2972C37A00E6033A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25EDDE9F28336F9600F3F583 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2844,30 +2844,6 @@
 			};
 			name = Release;
 		};
-		2515096B2845B6370037DF08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2515096C2845B6370037DF08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		251509772845C9760037DF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2905,30 +2881,6 @@
 			name = Debug;
 		};
 		251509892845F4550037DF08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		25150993284770C10037DF08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		25150994284770C10037DF08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -3385,54 +3337,6 @@
 			};
 			name = Release;
 		};
-		2562FF8F288500FB00CA78C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2562FF90288500FB00CA78C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2562FF9A2885108C00CA78C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2562FF9B2885108C00CA78C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		2562FFA52886844500CA78C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3470,30 +3374,6 @@
 			name = Debug;
 		};
 		2562FFB12886986C00CA78C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		2562FFBB2886F65900CA78C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		2562FFBC2886F65900CA78C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -3596,32 +3476,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XAWR4AU4TQ;
 				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		25C25160288E9BD500114541 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/**";
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		25C25161288E9BD500114541 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XAWR4AU4TQ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				HEADER_SEARCH_PATHS = "\"${SRCROOT}\"/**";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -3945,6 +3799,138 @@
 			};
 			name = Release;
 		};
+		25EA98062972C0FF00E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA98072972C0FF00E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EA98122972C19B00E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA98132972C19B00E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EA981E2972C2A200E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA981F2972C2A200E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EA98292972C2D600E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA982A2972C2D600E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EA98342972C33000E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA98352972C33000E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EA983F2972C37A00E6033A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EA98402972C37A00E6033A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XAWR4AU4TQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		25EDDEA728336F9600F3F583 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4029,15 +4015,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2515096D2845B6370037DF08 /* Build configuration list for PBXNativeTarget "new/delete分配函数和释放函数" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2515096B2845B6370037DF08 /* Debug */,
-				2515096C2845B6370037DF08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		251509762845C9760037DF08 /* Build configuration list for PBXNativeTarget "debug_new" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4052,15 +4029,6 @@
 			buildConfigurations = (
 				251509882845F4550037DF08 /* Debug */,
 				251509892845F4550037DF08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25150992284770C10037DF08 /* Build configuration list for PBXNativeTarget "new/delete/malloc/free 删除的时候如何知道大小" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25150993284770C10037DF08 /* Debug */,
-				25150994284770C10037DF08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4200,24 +4168,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2562FF8E288500FB00CA78C5 /* Build configuration list for PBXNativeTarget "信号 alrm/setitimer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2562FF8F288500FB00CA78C5 /* Debug */,
-				2562FF90288500FB00CA78C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2562FF992885108C00CA78C5 /* Build configuration list for PBXNativeTarget "管道通信 pipe/mkfifo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2562FF9A2885108C00CA78C5 /* Debug */,
-				2562FF9B2885108C00CA78C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2562FFA42886844500CA78C5 /* Build configuration list for PBXNativeTarget "fork 学习" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4232,15 +4182,6 @@
 			buildConfigurations = (
 				2562FFB02886986C00CA78C5 /* Debug */,
 				2562FFB12886986C00CA78C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2562FFBA2886F65900CA78C5 /* Build configuration list for PBXNativeTarget "仿函数/函数指针/lambda/std::function/std::bind" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2562FFBB2886F65900CA78C5 /* Debug */,
-				2562FFBC2886F65900CA78C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4277,15 +4218,6 @@
 			buildConfigurations = (
 				25BBEB19284CCF8000952B0B /* Debug */,
 				25BBEB1A284CCF8000952B0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25C25162288E9BD500114541 /* Build configuration list for PBXNativeTarget "模板-不定参数 decltype / declval 等" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25C25160288E9BD500114541 /* Debug */,
-				25C25161288E9BD500114541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4412,6 +4344,60 @@
 			buildConfigurations = (
 				25E99F98283E71030017FFCF /* Debug */,
 				25E99F99283E71030017FFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA98082972C0FF00E6033A /* Build configuration list for PBXNativeTarget "仿函数-函数指针-lambda-std::function-std::bind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA98062972C0FF00E6033A /* Debug */,
+				25EA98072972C0FF00E6033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA98112972C19B00E6033A /* Build configuration list for PBXNativeTarget "模板-不定参数 decltype,declval 等" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA98122972C19B00E6033A /* Debug */,
+				25EA98132972C19B00E6033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA981D2972C2A200E6033A /* Build configuration list for PBXNativeTarget "new,delete,malloc,free 删除的时候如何知道大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA981E2972C2A200E6033A /* Debug */,
+				25EA981F2972C2A200E6033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA98282972C2D600E6033A /* Build configuration list for PBXNativeTarget "new,delete分配函数和释放函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA98292972C2D600E6033A /* Debug */,
+				25EA982A2972C2D600E6033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA98332972C33000E6033A /* Build configuration list for PBXNativeTarget "信号 alrm,setitimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA98342972C33000E6033A /* Debug */,
+				25EA98352972C33000E6033A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EA983E2972C37A00E6033A /* Build configuration list for PBXNativeTarget "管道通信 pipe,mkfifo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EA983F2972C37A00E6033A /* Debug */,
+				25EA98402972C37A00E6033A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
